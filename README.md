@@ -1,23 +1,23 @@
-# metabase-rh
-Dashboard de índices de RH desenvolvido com Metabase
+# RH Analytics - Metabase
 
-## Ambiente
+Dashboard de People Analytics desenvolvido em Metabase.
 
-- Metabase
-- PostgreSQL
-
-## KPIs
+## Indicadores
 
 - Headcount
 - Turnover
 - Absenteísmo
 - Movimentações
 
-## Backup
+## Ambiente
 
-Arquivo:
-backups/metabase.db.mv.db
+- Metabase
+- PostgreSQL
+- Docker
 
-## Recuperação
+## Estrutura
 
-Restaurar o banco do Metabase e reiniciar o container.
+- dataset/: documentação das fontes de dados
+- sql/: consultas utilizadas nos indicadores
+- screenshots/: capturas dos dashboards
+- docs/: documentação do projeto
